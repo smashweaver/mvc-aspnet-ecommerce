@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCStore", "MVCStore\MVCStore.csproj", "{8C7A5A56-61C2-471B-BCAE-B982D24C3308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCStoreTests", "MVCStoreTests\MVCStoreTests.csproj", "{5C60E8D0-B98C-44AC-9737-30FB2432572E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexMerchant.Core", "..\FlexMerchant.Core\FlexMerchant.Core.csproj", "{6E0D4D3E-02EE-4DAD-85D6-B9937DEDFCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7A5A56-61C2-471B-BCAE-B982D24C3308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7A5A56-61C2-471B-BCAE-B982D24C3308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7A5A56-61C2-471B-BCAE-B982D24C3308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7A5A56-61C2-471B-BCAE-B982D24C3308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C60E8D0-B98C-44AC-9737-30FB2432572E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C60E8D0-B98C-44AC-9737-30FB2432572E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C60E8D0-B98C-44AC-9737-30FB2432572E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C60E8D0-B98C-44AC-9737-30FB2432572E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0D4D3E-02EE-4DAD-85D6-B9937DEDFCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0D4D3E-02EE-4DAD-85D6-B9937DEDFCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0D4D3E-02EE-4DAD-85D6-B9937DEDFCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0D4D3E-02EE-4DAD-85D6-B9937DEDFCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

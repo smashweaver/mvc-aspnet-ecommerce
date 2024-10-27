@@ -1,0 +1,454 @@
+﻿body {
+	padding:0;
+	margin:0;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;	
+	color: #646464;
+	background: url('images/body-bg.jpg') repeat;
+}
+
+.header-bg {
+	background-image: url('/images/sextoys-header-bg.jpg');
+	background-repeat: repeat-x;
+	height:119px;
+	width:100%;
+}
+
+.top-h1{
+	font-family:  Verdana, Tahoma, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	background-color:transparent;
+	color: #000000;
+	text-decoration: none;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.top-link {
+	float:right;
+	margin-top:11px;
+	margin-right:5px;
+	background-color:transparent;	
+}
+
+.top-link a{
+	font-family:  Verdana, Tahoma, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	background:transparent;
+	color: #000000;
+	margin-right:5px;
+	margin-left:5px;
+	text-decoration: none;}
+	
+.top-link a:hover {
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	margin-right:5px;
+	margin-left:5px;
+	color: #646464;
+	text-decoration: underline;}
+	
+.top-nav-bg {
+	background-image:url('/images/top-nav-bg.gif'); 
+	background-repeat:repeat-x;
+}
+
+.nav-bg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#wrapper {
+	width:900px;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	background:#FFFFFF;
+}
+
+#sidebar-right {
+	float: right;
+	width: 190px; 
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#sidebar-left {
+	float: left;
+	width: 190px; 
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#content {
+	margin: 0px;
+	padding: 0px;
+	height: 1%; /* ie6 hack */
+	overflow: hidden;
+}
+
+#content-inner {	
+	width:100%;
+	overflow: hidden;
+}
+
+#footer {
+	clear: both;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#footer table {
+	width:100%;	
+	font-family:   Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #834DB9;
+	text-decoration: none;
+}
+
+.border-dotted {
+	border-top: 1px dotted #C6C6C4;
+}
+
+.border {
+	border: 1px solid #E5E5E5;
+}
+
+.divider {
+	clear: both;
+	min-height:12px;
+}
+
+img {	
+	border:0px;
+}
+
+.search {
+	background-image: url(/images/search-bg.jpg);
+	background-repeat: repeat-x;
+	height:33px;
+	width:100%;
+	vertical-align:middle;
+}
+
+.search-content {
+	margin: 9px 0px 4px 2px;
+	vertical-align: middle;
+}
+
+.search-input-txt {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	border: 1px solid #c7c7c7;
+	width:100px;
+	height:13px;
+}
+
+.category-bg {
+	background-image: url(/images/category-bg.jpg);
+	background-repeat: repeat-x;
+	height:36px;
+}
+
+.category-bg .cat-txt 
+{
+	padding-top: 12px;
+	padding-left: 12px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.category-bg .cat-txt span {
+	padding-left:10px;
+	background:transparent url(/images/cat-bullet.jpg) no-repeat left center;	
+}
+
+
+
+/* main menu */
+.category-menu {width: 90%; margin-left: auto; margin-right: auto;}
+
+
+.nav {
+	 width:100%;
+	 margin:0;
+	 padding:0;
+	 list-style-type:none;
+}
+
+.navrow {
+	padding-top:4px;
+	padding-bottom:4px;
+	border-bottom: 1px dotted #C6C6C4;
+	width:100%;
+}
+
+.slider {
+	background:#EFEFE9;
+	background:#F6F6F5;
+	background:#FAFAF9;
+}
+
+.nav .category {
+	margin:0;
+	padding:0;
+	margin-left:8px;
+	padding-top:0px;		
+	padding-left:14px;
+	background:transparent url(/images/bullet1.gif) no-repeat left center;
+	background-position: left center ;
+	cursor:default;
+}
+
+.nav .category a .selected {
+	color: red;
+}
+
+.nav .subcategory {	 
+	padding:0;
+	margin:0;
+	margin-left:22px;
+	padding-top:0px;	
+	padding-left:14px;
+	background:transparent url(/images/bullet1.gif) no-repeat left center;
+}
+
+.nav a {
+  text-decoration:none;
+  color: #646464;
+}
+
+
+/* sextoys panels */
+.sex-panel-right
+{
+	margin: auto;
+	width: 170px;
+}
+.sex-panel-left
+{
+	margin:auto;
+	width: 170px;
+}
+
+.sex-group-pink {
+	width: 100%;
+	padding: 7px 0 2px 0;
+	background: #FF4481;	
+}
+
+.sex-group-black {
+	width: 100%;
+	padding: 7px 0 2px 0;
+	background: #626262;
+}
+
+.sex-group-header{
+	width: 100%;
+	text-align:center;
+}
+
+.sex-group-content {
+	width: 92%;
+	background-color: #FFFFFF;
+	margin: 5px auto 5px auto;
+	padding: 2px 0 2px 0;
+}
+
+.sex-group-content-black
+{
+	width: 92%;
+	border: 1px solid #313131;
+	background-color: #FFFFFF;
+	margin: 5px auto 5px auto;
+}
+
+.sex-group-subcontent
+{
+	width: auto;
+	margin: 10px;
+	overflow: hidden;
+}
+.sex-group-content-hdr-img {
+	width: auto;
+	margin-top:7px;
+	text-align:center
+}
+.sex-payment-content
+{
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	margin:5px auto auto auto;
+	text-align:center;
+}
+
+.sex-search {
+	background-image: url(/images/search-bg.jpg);
+	background-repeat: repeat-x;
+	height: 33px;
+	width: 100%;
+	vertical-align:middle;
+}
+.sex-search-content
+{
+	margin: 9px 0px 4px 2px;
+	vertical-align: middle;
+}
+.sex-menu-left-header
+{
+	background-image: url(/images/feedback-bg.jpg);
+	background-repeat: repeat-x;
+	height: 33px;
+	width: 100%;
+}
+.sex-menu-left-content
+{
+	margin: 6px 10px 4px auto;
+	padding-left: 10px;
+	vertical-align:middle;
+}
+
+
+/* web parts content */
+.sex-login-error-msg {
+	padding: 0px 0px 5px 0px;	
+}
+.sex-login-row {
+	width: 100%;
+	overflow:hidden;
+	vertical-align:top;
+	margin:auto auto 1px auto;
+}
+.sex-login-label {
+	overflow:hidden;
+	width: 35%
+}
+.sex-login-textbox { 	
+	width:100%;
+	overflow:hidden;
+	width: 60%;
+}
+.sex-basket-row-dotted {
+	border-bottom: 1px dotted #C6C6C4;
+	width:100%;
+	overflow:hidden;
+	vertical-align:top;
+	margin:auto;
+	padding: 3px 3px 3px 20px;
+}
+
+.sex-basket-total {
+	margin: 5px 0px 10px 0px;
+}
+
+/* textbox styles */
+.input-text {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	border: 1px solid #c7c7c7;
+}
+
+/* label styles */
+.sex-label-pink {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight:normal;
+	color: #D12960;
+}
+.sex-label-header-white {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+.sex-label-header-black {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+/* link styles */
+.sex-left-link {
+	font-family:   Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #646464;
+	text-decoration: none;
+}
+
+.sex-left-link a {
+	text-decoration: none;
+}
+	
+.sex-left-link a:hover {
+	text-decoration: underline;
+}
+
+.feedback-bg {
+	background-image: url(/images/feedback-bg.jpg);
+	background-repeat: repeat-x;
+}
+
+.tahoma-14bold {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.tahoma-12bold {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.white-link {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.detail-link {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	color: #000000;
+	text-decoration:none;
+}
+
+.detail-link a {
+	color: #000000;
+	text-decoration:none;
+}
